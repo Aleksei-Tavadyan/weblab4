@@ -1,5 +1,5 @@
 export async function pokemon() {
-    let data = await fetch('https://pokeapi.co/api/v2/pokemon/venusaur')
+    let data = await fetch('https://pokeapi.co/api/v2/pokemon/pikachu')
     let jsonValue = await data.json()
 
     
